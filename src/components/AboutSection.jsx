@@ -11,15 +11,15 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              AI Engineer — Agentic AI, RAG and ML Specialist
+              AI Engineer specializing in Agentic AI, LLM Applications and RAG
             </h3>
 
             <p className="text-muted-foreground">
-              I specialize in architecting multi-agent systems and Retrieval-Augmented Generation pipelines using LangChain, LangGraph, and frontier LLMs. Currently at MetaNova AI, I build autonomous end-to-end workflows that automate complex business processes at scale.
+             I build AI agents that think, decide and act on their own. With LangGraph, LangChain and Gemini, I turn messy business workflows into smart, automated systems.
             </p>
 
             <p className="text-muted-foreground">
-              With hands-on experience across vector databases (Qdrant, ChromaDB), cloud-native deployments, and predictive ML models, I bridge the gap between cutting-edge AI research and production-ready solutions.
+             From WhatsApp bots that verify reports in real time to OCR agents that read invoices without manual entry, I love building AI that takes real work off people’s plates.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -46,7 +46,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Agentic AI and RAG</h4>
                   <p className="text-muted-foreground">
-                    I design multi-agent orchestration systems and RAG pipelines using LangChain, LangGraph, and vector databases like Qdrant and ChromaDB to deliver intelligent, autonomous solutions.
+                    At MetaNova AI I designed multi agent automation workflows for cross platform marketing, built OCR agents and an autonomous invoice processing pipeline, and architected a multimodal RAG pipeline over 180+ Instagram video assets using ChromaDB for real time sales intelligence.
                   </p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Machine Learning</h4>
                   <p className="text-muted-foreground">
-                    I build high-performance ML models using XGBoost, Scikit-learn, and Python for real-world applications including fraud detection and customer churn prediction.
+                    I build predictive ML models with XGBoost and Scikit learn to speed up data preprocessing and training, including models for the NeurIPS Open Polymer Prediction 2025 Kaggle competition using RDKit features and 5 fold cross validation.
                   </p>
                 </div>
               </div>
@@ -72,9 +72,9 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">End-to-End Delivery</h4>
+                  <h4 className="font-semibold text-lg">LLM Apps and Automation</h4>
                   <p className="text-muted-foreground">
-                    From ideation to deployment, I ship production-grade AI applications combining FastAPI, Streamlit, and cloud infrastructure to bring intelligent systems to life.
+                    I built and deployed WhatsApp bot agents with Meta API integrations, including real time healthcare report verification, and shipped LLM flows with tool calling and prompt engineering to production.
                   </p>
                 </div>
               </div>

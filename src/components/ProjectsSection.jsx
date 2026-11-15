@@ -3,27 +3,27 @@ import { ArrowRight, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "AI Sales RAG Application",
+    title: "MedGuard AI",
     description:
-      "Multi-stage RAG pipeline processing 180+ Instagram video assets. Scrapes, transcribes, and extracts sales intelligence using LLMs and ChromaDB vector search for real-time querying.",
-    tags: ["ChromaDB", "LLMs", "Streamlit", "RAG", "Python"],
-    githubUrl: "https://github.com/Swathi63446/AI-Sales-RAG",
+      "Agentic RAG pipeline in LangGraph that retrieves, grades evidence sufficiency, rewrites queries and retries in a bounded loop, abstaining when evidence is weak. Uses hybrid retrieval (ChromaDB + BM25 with Reciprocal Rank Fusion and cross encoder reranking), document version checks for outdated guidelines, and answers grounded in cited document IDs. Evaluated with precision, recall, MRR and Gemini judged RAGAS metrics.",
+    tags: ["LangGraph", "Gemini", "ChromaDB", "BM25", "FastAPI", "Streamlit", "Docker", "GitHub Actions"],
+    githubUrl: "https://github.com/Swathi63446/MedGuardAI",
   },
   {
     id: 2,
-    title: "HealthMatrix-AI",
+    title: "PayTrace Invoice Agent",
     description:
-      "Cloud-backed health intelligence platform using LangChain multi-agent orchestration and Qdrant RAG to deliver personalized 7-day health action plans with an interactive Streamlit dashboard.",
-    tags: ["LangChain", "Qdrant Cloud", "Streamlit", "RAG"],
-    githubUrl: "https://github.com/Swathi63446/HealthMatrix-AI",
+      "Five node LangGraph agent that extracts, validates, saves, summarizes and escalates PDF invoices needing human review. Uses Google Document AI for OCR and Gemini for structured extraction into a Pydantic schema, with deterministic validation of totals, line items and dates, retry loops and duplicate prevention. Logs to Google Sheets, sends Gmail summaries with the original PDF, and is tested with a pytest evaluation suite.",
+    tags: ["LangGraph", "Gemini", "Google Document AI", "Pydantic", "Docker"],
+    githubUrl: "https://github.com/Swathi63446/PayTraceInvoiceAgent",
   },
   {
     id: 3,
-    title: "Customer Churn Prediction",
+    title: "Polymer Property Prediction",
     description:
-      "XGBoost-powered churn prediction system with a Flask web interface for real-time risk assessment and Cohere AI integration for interpretable, stakeholder-friendly results.",
-    tags: ["XGBoost", "Flask", "Power BI", "Cohere AI", "Python"],
-    githubUrl: "https://github.com/Swathi63446/CustomerChurnPrediction",
+      "Machine learning models predicting five polymer properties (Tg, FFV, Tc, Density, Rg) from SMILES strings for the NeurIPS Open Polymer Prediction 2025 Kaggle competition. Features engineered from RDKit molecular descriptors and 1024 bit Morgan fingerprints, with XGBoost models validated using 5 fold cross validation.",
+    tags: ["Python", "RDKit", "XGBoost", "Scikit-learn"],
+    githubUrl: "https://github.com/Swathi63446/PolymerPropertyPrediction",
   },
 ];
 
@@ -36,7 +36,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each one is carefully crafted with attention to detail, performance, and real-world impact.
+          Here are some of my recent projects in agentic AI, RAG and machine learning.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

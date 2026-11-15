@@ -2,38 +2,49 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  { name: "Agentic Workflows",  category: "Agentic AI" },
-  { name: "RAG Orchestration",  category: "Agentic AI" },
-  { name: "Prompt Engineering", category: "Agentic AI" },
-  { name: "LLMs",               category: "Agentic AI" },
+  { name: "AI Agents", category: "AI and LLMs" },
+  { name: "Multi Agent Systems", category: "AI and LLMs" },
+  { name: "RAG", category: "AI and LLMs" },
+  { name: "Tool Calling", category: "AI and LLMs" },
+  { name: "Prompt Engineering", category: "AI and LLMs" },
+  { name: "LLM Workflows", category: "AI and LLMs" },
+  { name: "LLM Evaluation (RAGAS)", category: "AI and LLMs" },
+  { name: "LangGraph", category: "AI and LLMs" },
+  { name: "LangChain", category: "AI and LLMs" },
+  { name: "ChromaDB", category: "AI and LLMs" },
+  { name: "Pinecone", category: "AI and LLMs" },
 
-  { name: "LangChain",  category: "AI Frameworks" },
-  { name: "LangGraph",  category: "AI Frameworks" },
-
-  { name: "XGBoost",             category: "Machine Learning" },
-  { name: "Scikit-learn",        category: "Machine Learning" },
+  { name: "XGBoost", category: "Machine Learning" },
+  { name: "Scikit-learn", category: "Machine Learning" },
   { name: "Feature Engineering", category: "Machine Learning" },
-  { name: "EDA",                 category: "Machine Learning" },
+  { name: "Model Evaluation", category: "Machine Learning" },
+  { name: "EDA", category: "Machine Learning" },
 
-  { name: "Python",    category: "Development" },
-  { name: "FastAPI",   category: "Development" },
-  { name: "Streamlit", category: "Development" },
+  { name: "Python", category: "Backend and Automation" },
+  { name: "FastAPI", category: "Backend and Automation" },
+  { name: "Flask", category: "Backend and Automation" },
+  { name: "Streamlit", category: "Backend and Automation" },
+  { name: "REST APIs", category: "Backend and Automation" },
+  { name: "SQL", category: "Backend and Automation" },
+  { name: "WhatsApp Business and Meta APIs", category: "Backend and Automation" },
+  { name: "OCR", category: "Backend and Automation" },
+  
 
-  { name: "Qdrant",            category: "Databases and Tools" },
-  { name: "ChromaDB",          category: "Databases and Tools" },
-  { name: "Pinecone",          category: "Databases and Tools" },
-  { name: "SQL",               category: "Databases and Tools" },
-  { name: "Microsoft Fabric",  category: "Databases and Tools" },
-  { name: "Power BI",          category: "Databases and Tools" },
-  { name: "REST APIs",         category: "Databases and Tools" },
+  { name: "Docker", category: "Cloud and DevOps" },
+  { name: "GCP (Cloud Run, Document AI)", category: "Cloud and DevOps" },
+  { name: "GitHub Actions", category: "Cloud and DevOps" },
+  { name: "Git", category: "Cloud and DevOps" },
+
+  { name: "Oracle Cloud Infrastructure (OCI) 2025 AI Foundations Associate", category: "Certifications" },
+  { name: "RapidMiner ML Professional", category: "Certifications" },
 ];
 
 const categories = [
-  "Agentic AI",
-  "AI Frameworks",
+  "AI and LLMs",
   "Machine Learning",
-  "Development",
-  "Databases and Tools",
+  "Backend and Automation",
+  "Cloud and DevOps",
+  "Certifications",
 ];
 
 export const SkillsSection = () => {

@@ -17,7 +17,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I specialize in Agentic AI, Retrieval-Augmented Generation (RAG), and Machine Learning. I architect multi-agent systems and autonomous pipelines that turn complex business problems into production-ready intelligent solutions.
+            AI Engineer specializing in Agentic AI, LLM applications and Retrieval Augmented Generation (RAG). I build and deploy AI agents, WhatsApp automation and OCR pipelines using LangGraph, LangChain, vector databases and Gemini models.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

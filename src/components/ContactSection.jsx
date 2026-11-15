@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">Hyderabad, Telangana</p>
+                  <p className="text-muted-foreground">Hyderabad, India</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export const ContactSection = () => {
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
-                  href="https://www.linkedin.com/in/swathi-dhanyamraju-6b68b4298/"
+                  href="https://www.linkedin.com/in/swathi-s-6b68b4298/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/80 hover:text-primary transition-colors duration-300"
